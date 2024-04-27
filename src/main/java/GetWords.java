@@ -10,7 +10,7 @@ public class GetWords implements GetWordsInterface{
 
     @Override
     public List<String> getWords() {
-        List<String> words = new ArrayList<String>();
+        List<String> words = new ArrayList<>();
         try {
             words = Files.readAllLines(Paths.get("src/main/files/words.txt"), StandardCharsets.UTF_8);
         } catch (Exception e) {
