@@ -39,3 +39,9 @@ This Game was built for my personal project for the course Testing and Software 
 
 - I think I have achieved good code coverage with every class having either doubling tests or traditional unit tests.
 
+## Other Notes
+
+- The commits for the intial building of the application are missing as I had to create a new repo.
+- I initially hadn't used a maven project to build this app so I had to create one so dependencies could be added.
+- The initial build commits can be found in this repo: https://github.com/r-devenny/tsiproject.git
+
