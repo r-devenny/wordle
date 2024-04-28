@@ -1,0 +1,7 @@
+
+©
+java:S1319"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(ãëãÕJ$77cbc564-e175-4cd3-bd63-e55d8cb3d598
+ 
+java:S1319"dThe type of "letters" should be an interface such as "Map" rather than the implementation "HashMap".(ö–“‹J$a6220fe3-3e36-4b93-9658-aab2a54ebd39
+]
+java:S1643("Use a StringBuilder instead.( Ú›†ûÿÿÿÿJ$ac44fc7e-da71-440b-8c97-7b1469694e00
