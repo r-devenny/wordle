@@ -1,7 +1,6 @@
 package wordleTests;
 
 import org.junit.jupiter.api.Test;
-import wordle.GetWords;
 import wordle.GetWordsInterface;
 
 import java.util.List;
@@ -12,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-public class TestGetWords {
+class TestGetWords {
 
     @Test
     void testGetSingleWord() {
@@ -41,14 +40,13 @@ public class TestGetWords {
         when(getWords.getWords()).thenReturn(new ArrayList<>(Arrays.asList("apple", "peach", "beach", "tests")));
 
 
-        GetWords getWordsObj = new GetWords();
+        List<String> words = getWords.getWords();
 
-        List<String> words = getWordsObj.getWords();
-
-        assertEquals(10, words.size());
+        assertEquals(4, words.size());
         assertEquals("apple", words.get(0));
         assertEquals("peach", words.get(1));
         assertEquals("beach", words.get(2));
+        assertEquals("tests", words.get(3));
     }
 }
 
